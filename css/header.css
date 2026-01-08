@@ -1,15 +1,28 @@
 /* arquivo para configs do header da página */
 
 header {
-  background-color: var(--background-tertiary-color); /* variável definida em global.css*/
-  width: 100%;
-  height: 136px;
+  background-color: var(
+    --background-tertiary-color
+  ); /* variável definida em global.css*/
+  display: flex; /* alterando o display para flex*/
+  flex-direction: row; /* será distribuído na forma de row (linha - horizontalmente)*/
+  justify-content: space-between; /* space-between: cada elemento filho do header ficará de um lado da tela */
+  align-items: flex-start;
+  padding: 38px 48px;
 }
 
 /* editando o elemento com a class logo*/
 .logo {
-    display: inline-block;
-    width: 68px;
-    height: 64px;
-    margin: 37px 0px 0px 48px; /* margin para ajustar a posicao do logo*/
+  display: inline-block;
+  width: 68px;
+  height: 64px;
+}
+
+/* edita apenas o menu hamburguer */
+.navigation-menu {
+  margin-top: 24px;
+}
+
+nav {
+  display: none; /* esconde a nav no momento inicial */
 }
