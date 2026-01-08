@@ -1,45 +1,5 @@
-/* adicionando a fonte ao projeto */
-@font-face {
-  font-family: "Montserrat";
-  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
-  font-style: normal;
-  font-display: swap;
-}
+/* documento que tem as principais configs css */
 
-/* reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* adicionando variáveis globais de css*/
-:root {
-  /* cores gerais */
-  --primary-color: #8f0101;
-  --secundary-color: #b81515;
-
-  /* cores de fundo */
-  --background-primary-color: #ffffff;
-  --background-secundary-color: #f5f5f5;
-  --background-tertiary-color: #000000;
-
-  /* cores de texto */
-  --text-primary-color: #222222;
-  --text-secundary-color: #ffffff;
-
-  /* variáveis de peso de texto*/
-  --title-weight: 700;
-  --text-weight: 400;
-  --menu-text-weight: 500;
-}
-
-body {
-  background-color: var(--background-tertiary-color);
-}
-
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: var(--title-weight);
-  color: var(--primary-color);
-}
+/* import das configs de cada arquivo .css, juntando todas as modificações neste arquivo principal*/
+@import url(global.css);
+@import url(header.css);
