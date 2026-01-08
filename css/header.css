@@ -23,6 +23,11 @@ header {
   margin-top: 24px;
 }
 
+/* quando o input do tipo checkbox estiver assinalado (:checked), editar o elemento irmão dele - nav*/
+input[type="checkbox"]:checked ~ nav{
+  display: block; /* deixa o display com block, fazendo com que os itens da nav sejam vistos */
+}
+
 nav {
   display: none; /* esconde a nav no momento inicial */
 }
