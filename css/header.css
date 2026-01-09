@@ -9,6 +9,7 @@ header {
   justify-content: space-between; /* space-between: cada elemento filho do header ficará de um lado da tela */
   align-items: flex-start;
   padding: 38px 48px;
+  position: relative; /* relative para conseguir editar a nav filha com position absolute*/
 }
 
 /* editando o elemento com a class logo*/
@@ -24,10 +25,29 @@ header {
 }
 
 /* quando o input do tipo checkbox estiver assinalado (:checked), editar o elemento irmão dele - nav*/
-input[type="checkbox"]:checked ~ nav{
+input[type="checkbox"]:checked ~ nav {
   display: block; /* deixa o display com block, fazendo com que os itens da nav sejam vistos */
+  position: absolute; /* position: absolute para poder controlar a posição dele em relação ao seu elemento pai, o header */
+  top: 100%; /* terá 100% de distância do top do pai (header), assim ficando exatamente abaixo do header */
+  left: 0; /* 0 pois ficará na base horizontal do pai header*/
+  width: 100%;
+  background-color: var(--background-tertiary-color);
 }
 
 nav {
   display: none; /* esconde a nav no momento inicial */
+}
+
+.list-links {
+  list-style: none;
+}
+
+.list-links li {
+  margin: 16px 0;
+}
+
+/* editando o link cada item da lista list links*/
+.list-links li a {
+  color: var(--text-secondary-color);
+  text-decoration: none;
 }
