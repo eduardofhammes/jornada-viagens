@@ -3,3 +3,4 @@
 /* import das configs de cada arquivo .css, juntando todas as modificações neste arquivo principal*/
 @import url(global.css);
 @import url(header.css);
+@import url(hero.css);
