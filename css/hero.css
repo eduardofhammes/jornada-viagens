@@ -5,6 +5,15 @@
   background-size: cover;
 }
 
+/* texto da seção hero */
+.hero h2{
+    padding: 88px 24px;
+    font-weight: var(--text-text-weight); /* variavel no global.css*/
+    font-size: 20px;
+    line-height: 1.6em;
+    text-align: center;
+}
+
 /* tablets */
 @media screen and (min-width: 768px) {
   .hero-img {
@@ -12,13 +21,28 @@
     background: white url("../img/hero-tablet.jpg") no-repeat; /* alterar a imagem para se adaptar ao tamanho correto*/
     background-size: cover; /* cover não herda da config principal */
   }
+
+  .hero h2{
+    padding: 88px 60px;
+    font-size: 32px;
+  }
 }
 
 /* desktop */
-@media screen and (min-width: 1230px) {
+@media screen and (min-width: 1024px) {
   .hero-img {
     background: white url("../img/hero-desktop.jpg") no-repeat; /* alterar url da imagem para se adaptar ao tamanho correto*/
     background-size: cover; /* cover não herda da config principal */
+  }
 
+  .hero h2 {
+    padding: 104px 120px;
+  }
+}
+
+/* desktops grandes*/
+@media screen and (min-width: 1920px) {
+  .hero h2 {
+    padding: 104px 160px;
   }
 }
