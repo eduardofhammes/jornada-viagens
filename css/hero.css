@@ -1,5 +1,24 @@
-.hero-img{
-    width: 100%;
-    height: 400px;
-    background: white url("../img/hero-mobile.jpg") center center / cover no-repeat;
+.hero-img {
+  width: 100%;
+  height: 400px;
+  background: white url("../img/hero-mobile.jpg") no-repeat;
+  background-size: cover;
+}
+
+/* tablets */
+@media screen and (min-width: 768px) {
+  .hero-img {
+    height: 620px; /* alterando tamanho - tamanho padrão da imagem */
+    background: white url("../img/hero-tablet.jpg") no-repeat; /* alterar a imagem para se adaptar ao tamanho correto*/
+    background-size: cover; /* cover não herda da config principal */
+  }
+}
+
+/* desktop */
+@media screen and (min-width: 1230px) {
+  .hero-img {
+    background: white url("../img/hero-desktop.jpg") no-repeat; /* alterar url da imagem para se adaptar ao tamanho correto*/
+    background-size: cover; /* cover não herda da config principal */
+
+  }
 }
