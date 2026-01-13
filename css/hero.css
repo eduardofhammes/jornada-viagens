@@ -6,12 +6,12 @@
 }
 
 /* texto da seção hero */
-.hero h2{
-    padding: 88px 24px;
-    font-weight: var(--text-text-weight); /* variavel no global.css*/
-    font-size: 20px;
-    line-height: 1.6em;
-    text-align: center;
+.hero h2 {
+  padding: 88px 24px;
+  font-weight: var(--text-text-weight); /* variavel no global.css*/
+  font-size: 20px;
+  line-height: 1.6em;
+  text-align: center;
 }
 
 /* tablets */
@@ -22,7 +22,7 @@
     background-size: cover; /* cover não herda da config principal */
   }
 
-  .hero h2{
+  .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
   }
