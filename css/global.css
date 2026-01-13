@@ -38,4 +38,30 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  color: var(
+    --text-primary-color
+  ); /* por padrão, será essa a cor de todos os elementos */
+}
+
+/* irá se repetir em vários momentos, por isso está aqui */
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  text-align: center;
+  padding: 0px 24px 20px 24px;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--primary-color);
+  margin: 16px auto 32px;
+  border: none; /* tira a borda */
+}
+
+/* tablet */
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+  }
 }
