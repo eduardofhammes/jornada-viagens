@@ -33,25 +33,25 @@
 
 /* card do japao */
 .card.japao {
-  background: url("../img/bg-card-japao.png") no-repeat;
+  background: url("../img/bg-card-japao.png") no-repeat center center;
   background-size: cover;
 }
 
 /* card de san andreas */
 .card.san-andreas {
-  background: url("../img/bg-card-san-andreas.png") no-repeat;
+  background: url("../img/bg-card-san-andreas.png") no-repeat center center;
   background-size: cover;
 }
 
 /* card da paraiba */
 .card.paraiba {
-  background: url("../img/bg-card-paraiba.png") no-repeat;
+  background: url("../img/bg-card-paraiba.png") no-repeat center center;
   background-size: cover;
 }
 
 /* card da paraiba */
 .card.manaus {
-  background: url("../img/bg-card-manaus.png") no-repeat;
+  background: url("../img/bg-card-manaus.png") no-repeat center center;
   background-size: cover;
 }
 
