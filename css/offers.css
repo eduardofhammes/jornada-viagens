@@ -23,6 +23,31 @@
   font-weight: var(--text-weight);
 }
 
+/* card do japao */
+.card.japao{
+    background: url("../img/bg-card-japao.png") no-repeat;
+    background-size: cover;
+}
+
+/* card de san andreas */
+.card.san-andreas{
+    background: url("../img/bg-card-san-andreas.png") no-repeat;
+    background-size: cover;
+}
+
+/* card da paraiba */
+.card.paraiba{
+    background: url("../img/bg-card-paraiba.png") no-repeat;
+    background-size: cover;
+}
+
+/* card da paraiba */
+.card.manaus{
+    background: url("../img/bg-card-manaus.png") no-repeat;
+    background-size: cover;
+}
+
+
 .card header h3 {
   font-size: 40px;
   font-weight: var(--title-weight);
