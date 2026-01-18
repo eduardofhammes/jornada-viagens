@@ -43,6 +43,23 @@ body {
   ); /* por padrão, será essa a cor de todos os elementos */
 }
 
+/* definindo a largura de cada section, centralizando cada parte do site*/
+section {
+  width: 312px;
+  margin: 0 auto 88px;
+}
+
+/* seção com exceção, irá ocupar 100% da largura  */
+section.hero {
+  width: 100%;
+  margin: 0;
+}
+
+.section-title {
+  width: 280px;
+  margin: 0 auto 32px;
+}
+
 /* irá se repetir em vários momentos, por isso está aqui */
 .section-title h2 {
   font-size: 28px;
@@ -61,7 +78,7 @@ body {
 
 .button {
   display: inline-block; /* alterar o display para poder definir width e height*/
-  width: 280px;
+  min-width: 280px;
   height: 64px;
   color: var(--text-secondary-color);
   font-weight: var(--text-weight);
@@ -70,22 +87,42 @@ body {
   border-radius: 16px;
   text-decoration: none;
   line-height: 64px; /* centraliza o texto na vertical - line-height mesmo valor de height*/
+  text-align: center;
 }
 
 /* tablet */
 @media screen and (min-width: 768px) {
+  .section-title {
+    width: 100%;
+  }
+
   .section-title h2 {
     font-size: 32px;
+  }
+  /* definindo a largura de cada section, centralizando cada parte do site*/
+  section {
+    width: 648px;
   }
 }
 
 /* desktop */
 @media screen and (min-width: 1024px) {
-  
+  /* definindo a largura de cada section, centralizando cada parte do site*/
+  section {
+    width: 900px;
+  }
+
   .section-title hr {
     margin-bottom: 64px;
   }
   .button:hover {
     background-color: var(--primary-color);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  /* definindo a largura de cada section, centralizando cada parte do site*/
+  section {
+    width: 1200px;
   }
 }
