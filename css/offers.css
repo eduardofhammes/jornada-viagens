@@ -19,10 +19,6 @@
 
 /* ajustando o header dos cards */
 .card header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0px;
   margin-bottom: 24px;
 }
 
@@ -94,15 +90,14 @@
 
 /* desktop maiores */
 @media screen and (min-width: 1440px) {
-    .card {
-        width: 588px;
-    }
+  .card {
+    width: 588px;
+  }
 }
 
 /* destktop full hd */
-@media screen and (min-width: 1440px) {
-    .offers-cards {
-        width: 1250px;
-        margin: 0 auto;
-    }
+@media screen and (min-width: 1920px) {
+  .offers-cards {
+    width: 1200px;
+  }
 }

@@ -1,6 +1,6 @@
 /* arquivo para configs do header da página */
 
-header {
+.main-header {
   background-color: var(
     --background-tertiary-color
   ); /* variável definida em global.css*/
@@ -84,7 +84,7 @@ nav {
 
 /* media-screen para desktop */
 @media screen and (min-width: 1024px) {
-  header {
+  .main-header {
     padding: 38px 120px;
   }
 
@@ -115,7 +115,7 @@ nav {
 
 /* desktops grandes*/
 @media screen and (min-width: 1920px) {
-  header {
+  .main-header {
     padding: 38px 160px; /* aumentando o padding em grandes telas, aproximando cada item do header */
   }
 }
