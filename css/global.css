@@ -76,6 +76,19 @@ section.hero {
   border: none; /* tira a borda */
 }
 
+/* padronizando título de seção - h3, h4*/
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+/* padronizando texto de seção - p */
+.content-text {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
 .button {
   display: inline-block; /* alterar o display para poder definir width e height*/
   min-width: 280px;
