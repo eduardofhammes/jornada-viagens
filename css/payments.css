@@ -1,0 +1,91 @@
+.payments .content-title {
+  margin-bottom: 20px;
+}
+
+/* container flex, que agrupará a seção de texto e de imagens juntos*/
+.payments .content-container {
+  display: flex;
+  flex-direction: row; /* row pois o texto e imagens ficarão na mesma linha*/
+}
+
+.payments .content-text {
+  margin-bottom: 24px;
+}
+
+/* div container das fotos*/
+.payments .image-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  height: 468px;
+  width: 100%;
+}
+
+.payments .image-content .image {
+  width: 100%;
+  height: 254px;
+}
+
+.payments .image-content .first {
+  background: url(../img/grid-image-bag-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .image-content .second {
+  background: url(../img/grid-image-passport-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .image-content .thirdy {
+  background: url(../img/grid-image-people-mobile.png) no-repeat;
+  background-size: cover;
+  height: 182px;
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .payments .image-content .first {
+    background: url(../img/grid-image-bag-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .image-content .second {
+    background: url(../img/grid-image-passport-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .image-content .thirdy {
+    background: url(../img/grid-image-people-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
+    justify-content: space-between; /* dividirá igualmente o espaço entre as imagens e o texto*/
+    height: 460px;
+  }
+  .payments .text-content {
+    width: 360px;
+    height: 220px;
+  }
+
+  .payments .image-content {
+    width: 790px;
+  }
+
+  .payments .image-content .first {
+    background: url(../img/grid-image-bag-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .image-content .second {
+    background: url(../img/grid-image-passport-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .image-content .thirdy {
+    background: url(../img/grid-image-people-desktop.png) no-repeat;
+    background-size: cover;
+  }
+}
