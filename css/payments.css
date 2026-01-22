@@ -2,12 +2,6 @@
   margin-bottom: 20px;
 }
 
-/* container flex, que agrupará a seção de texto e de imagens juntos*/
-.payments .content-container {
-  display: flex;
-  flex-direction: row; /* row pois o texto e imagens ficarão na mesma linha*/
-}
-
 .payments .content-text {
   margin-bottom: 24px;
 }
@@ -61,7 +55,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  /* container flex, que agrupará a seção de texto e de imagens juntos*/
   .payments .content-container {
+    display: flex;
+    flex-direction: row; /* row pois o texto e imagens ficarão na mesma linha*/
     justify-content: space-between; /* dividirá igualmente o espaço entre as imagens e o texto*/
     height: 460px;
   }
