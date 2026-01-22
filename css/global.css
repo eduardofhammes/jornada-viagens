@@ -80,6 +80,7 @@ section.hero {
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);
+  margin-bottom: 0px 0px 24px;
 }
 
 /* padronizando texto de seção - p */
