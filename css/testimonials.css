@@ -10,7 +10,7 @@
   line-height: 28px;
 }
 
-/* footer que é o container da img, h4 e estrelas e terá diosplay flex para organizar esses elementos */
+/* footer que é o container da img, h3 e estrelas e terá diosplay flex para organizar esses elementos */
 .testimonial-container article footer {
   display: flex;
   flex-direction: row;
@@ -18,7 +18,7 @@
   margin-top: 8px;
 }
 
-/* footer que é o container da img, h4 e estrelas e terá diosplay flex para organizar esses elementos */
+/* footer que é o container da img, h3 e estrelas e terá diosplay flex para organizar esses elementos */
 .testimonial-container article footer img {
   width: 86px;
   height: 86px;
@@ -29,7 +29,7 @@
     align-self: center;
 }
 
-.testimonial-container article footer .profile-content h4 {
+.testimonial-container article footer .profile-content h3 {
   font-size: 20px;
   line-height: 32px;
   font-weight: var(--title-weight);
