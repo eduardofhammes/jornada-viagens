@@ -1,0 +1,66 @@
+/* página para config da página pacotes.html */
+
+/* adiciona underline no link da página atual*/
+.main-header .navigation-menu .list-links .current-page {
+  text-decoration: underline;
+}
+
+.section-title.destinations {
+  margin: 0;
+}
+
+.hero .destination-hero-img {
+  height: 460px;
+  width: 100%;
+  background: url(../img/destination-hero.png) no-repeat;
+  background-size: cover;
+  padding: 65px 24px;
+  margin-bottom: 88px;
+  color: var(--text-secondary-color);
+}
+
+.hero .destination-hero-img h1 {
+  font-weight: var(--title-weight);
+  line-height: 60px;
+  font-size: 40px;
+}
+
+.hero .destination-hero-img hr {
+  margin: 16px 0px 32px;
+}
+
+.hero .destination-hero-img p {
+  font-weight: var(--text-menu-weight);
+  font-size: 16px;
+}
+
+.payments .image-content .image {
+  width: 100%;
+  height: 254px;
+}
+
+.payments .image-content .destination-first {
+  background: url(../img/destination-grid-1.png) no-repeat;
+  background-size: cover;
+  width: 144px;
+}
+
+.payments .image-content .destination-second {
+  background: url(../img/destination-grid-2.png) no-repeat;
+  background-size: cover;
+  width: 144px;
+}
+
+.payments .image-content .destination-thirdy {
+  background: url(../img/destination-grid-3.png) no-repeat;
+  background-size: cover;
+  height: 182px;
+  width: 312px;
+}
+
+.hero .hero-destinations-footer-img {
+  height: 400px;
+  width: 100%;
+  background: url(../img/destinations-footer-mobile.png) no-repeat center bottom;
+  background-size: cover;
+}
