@@ -152,3 +152,9 @@
     height: 600px;
   }
 }
+
+  @media screen and (min-width: 1920px) {
+  .hero .destination-hero-img {
+    padding-left: 360px
+  }
+}
