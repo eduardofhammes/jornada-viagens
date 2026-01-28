@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Destinos</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favico.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="main-header">
+      <a class="logo" href="index.html" title="Voltar para a página inicial"
+        ><img
+          class="img-mobile"
+          src="img/bussola-jornada-branca.png"
+          alt="Bussola do logo Jornada Viagens na cor branca"
+        />
+        <img
+          class="img-desktop"
+          src="img/bussola-texto-jornada-branca.png"
+          alt="Logo Jornada Viagens na cor branca"
+        />
+      </a>
+      <div class="navigation-menu">
+        <!-- nessa label e input ficarão a imagem e um checkkbox. Quando o checkbox estiver marcado, o menu abrirá comj as opções -->
+        <label for="menu"> <img src="img/menu.png" alt="menu" /> </label>
+        <input type="checkbox" id="menu" hidden />
+        <!-- hidden : esconde o input, já que ao clicar na imagem será feita as alterações -->
+        <nav>
+          <ul class="list-links">
+            <li>
+              <a href="blog.html" title="Acessar Blog" target="_blank">Blog</a>
+            </li>
+            <li>
+              <a
+                href="#"
+                title="Acessar Pacotes de viagem"
+                target="_blank"
+                class="current-page"
+                >Pacotes de viagem</a
+              >
+            </li>
+            <li>
+              <a href="contato.html" title="Acessar Contato" target="_blank"
+                >Contato</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="destination-hero-img section-title destinations">
+        <div class="hero-text">
+          <h1>Conheça o Japão!</h1>
+          <hr />
+          <p>
+            A Jornada possui o pacote perfeito para seu estilo e orçamento!
+            Conheça as belas paisagens e a cultura milenar deste belo país!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="destinations">
+      <div class="section-title">
+        <h2>Destinos da Excursão</h2>
+        <hr />
+      </div>
+
+      <!-- div irá segurar ambos itens -->
+      <div class="destinations-items">
+        <article class="item">
+          <header>
+            <!-- div que ficará a imagem como background -->
+            <div class="img-item tokyo"></div>
+            <h3 class="content-title">Tokyo</h3>
+          </header>
+          <p class="content-text">
+            Tóquio é uma cidade vibrante e cosmopolita, com seus templos
+            históricos, museus de arte moderna e arranha-céus icônicos. Não
+            perca a chance de mergulhar em sua atmosfera fascinante.
+          </p>
+          <footer>
+            <a
+              href="#"
+              class="button"
+              target="_blank"
+              title="Veja mais detalhes do destino Tokyo"
+              >Ver detalhes</a
+            >
+          </footer>
+        </article>
+
+        <article class="item">
+          <header>
+            <!-- div que ficará a imagem como background -->
+            <div class="img-item osaka"></div>
+            <h3 class="content-title">Osaka</h3>
+          </header>
+          <p class="content-text">
+            Osaka é uma cidade agitada e moderna no Japãos. A cidade é famosa
+            por sua gastronomia deliciosa e por ser um excelente ponto de
+            partida para explorar outras cidades japonesas próximas.
+          </p>
+          <footer>
+            <a
+              href="#"
+              class="button"
+              target="_blank"
+              title="Veja mais detalhes do destino Osaka"
+              >Ver detalhes</a
+            >
+          </footer>
+        </article>
+      </div>
+    </section>
+
+    <!-- seção de opções de pagamento-->
+    <section class="payments">
+      <div class="section-title">
+        <h2>Pagamento</h2>
+        <hr />
+      </div>
+
+      <!-- div que terá a parte do texto -->
+      <div class="content-container package">
+        <div class="text-content">
+          <h3 class="content-title">
+            R$4000!
+            <span>Em até 12x!</span>
+          </h3>
+          <p class="content-text">
+            Viaje pagando em até 12 parcelas no cartão, à vista no crédito com
+            5% de desconto ou no Pix com 10% de desconto!
+          </p>
+          <a
+            href="#"
+            class="button"
+            target="_blank"
+            title="Veja mais detalhes das condições de pagamento"
+            >Ver detalhes</a
+          >
+        </div>
+        <!-- div que terá a parte das imagens -->
+        <div class="package-image-content">
+          <div class="image destination-first"></div>
+          <div class="image destination-second"></div>
+          <div class="image destination-thirdy"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <div class="section-title">
+        <h2>Depoimentos</h2>
+        <hr />
+      </div>
+      <!-- div que ficará todo o conteúdo -->
+      <div class="testimonial-container">
+        <article>
+          <!-- article representa cada depoimento-->
+          <header>
+            <p>
+              A Jornada foi uma das melhores agências de viagens que eu já
+              experimentei. O serviço ao cliente foi excepcional, e toda a
+              equipe foi muito atenciosa e prestativa.
+            </p>
+          </header>
+          <footer>
+            <img
+              src="img/avatar-julio.png"
+              alt="Imagem de perfil do cliente Júlio Garibaldi"
+            />
+            <!-- div que agrupará o nome + estrelas-->
+            <div class="profile-content">
+              <h3>Júlio Garibaldi</h3>
+              <div class="rating">
+                <!-- div das estrelas-->
+                <span class="star">★</span>
+                <!-- como estamos com utf-8, podemos usar os simbolos diretamente, editando-os com a class da tag span -->
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+              </div>
+            </div>
+          </footer>
+        </article>
+        <article>
+          <!-- article representa cada depoimento-->
+          <header>
+            <p>
+              Minha viagem para Tóquio foi incrível. O itinerário personalizado
+              me permitiu muito em pouco tempo. Excedeu minhas expectativas e já
+              quero viajar com a Jornada novamente!
+            </p>
+          </header>
+          <footer>
+            <img
+              src="img/avatar-lucia.png"
+              alt="Imagem de perfil da cliente Lúcia S. Rabello"
+            />
+            <!-- div que agrupará o nome + estrelas-->
+            <div class="profile-content">
+              <h3>Lúcia S. Rabello</h3>
+              <div class="rating">
+                <!-- div das estrelas-->
+                <span class="star">★</span>
+                <!-- como estamos com utf-8, podemos usar os simbolos diretamente, editando-os com a class da tag span -->
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+              </div>
+            </div>
+          </footer>
+        </article>
+        <article>
+          <!-- article representa cada depoimento-->
+          <header>
+            <p>
+              Minha viagem para Osaka foi inesquecível! A Jornada organizou tudo
+              de forma perfeita, recomendo de olhos fechados!
+            </p>
+          </header>
+          <footer>
+            <img
+              src="img/avatar-olga.png"
+              alt="Imagem de perfil da cliente Olga dos Reis"
+            />
+            <!-- div que agrupará o nome + estrelas-->
+            <div class="profile-content">
+              <h3>Olga dos Reis</h3>
+              <div class="rating">
+                <!-- div das estrelas-->
+                <span class="star">★</span>
+                <!-- como estamos com utf-8, podemos usar os simbolos diretamente, editando-os com a class da tag span -->
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+              </div>
+            </div>
+          </footer>
+        </article>
+      </div>
+    </section>
+    <section class="hero">
+      <div class="hero-destinations-footer-img"></div>
+    </section>
+    <section class="footer">
+      <div class="first-content">
+        <img
+          src="img/logo-footer.png"
+          alt="Logo da Jornada Viagens no rodapé do site"
+        />
+        <p>
+          Horário de atendimento: 08h - 20h (Segunda a Sábado)
+          <br /><span class="footer-second-paragraph"
+            >Desenvolvido por Alura. Projeto fictício sem fins comerciais.</span
+          >
+        </p>
+      </div>
+      <div class="footer-contact">
+        <p>Acesse nossas redes:</p>
+        <img src="img/icon-whatsapp.png" alt="Logo do WhatsApp para contato" />
+        <img
+          src="img/icon-instagram.png"
+          alt="Logo do Instagram para contato"
+          class="margin-space"
+        />
+        <img src="img/icon-twitter.png" alt="Logo do X para contato" />
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+/* página para config da página pacotes.html */
+
+/* adiciona underline no link da página atual*/
+.main-header .navigation-menu .list-links .current-page {
+  text-decoration: underline;
+}
+
+.section-title.destinations {
+  margin: 0;
+}
+
+.hero .destination-hero-img {
+  height: 460px;
+  width: 100%;
+  background: url(../img/destination-hero.png) no-repeat;
+  background-size: cover;
+  padding: 65px 24px;
+  margin-bottom: 88px;
+  color: var(--text-secondary-color);
+}
+
+.hero .destination-hero-img h1 {
+  font-weight: var(--title-weight);
+  line-height: 60px;
+  font-size: 40px;
+}
+
+.hero .destination-hero-img hr {
+  margin: 16px 0px 32px;
+}
+
+.hero .destination-hero-img p {
+  font-weight: var(--text-menu-weight);
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.payments .content-container.package .text-content .content-title span {
+  display: block;
+  margin: 24px 0;
+}
+
+.payments .content-container.package .text-content .button {
+  margin-bottom: 24px;
+}
+
+.payments .package-image-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  height: 460px;
+  width: 100%;
+}
+
+.payments .package-image-content .image {
+  width: 100%;
+  height: 254px;
+  background-position: center center;
+}
+
+.payments .package-image-content .destination-first {
+  background: url(../img/destination-grid-1.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .package-image-content .destination-second {
+  background: url(../img/destination-grid-2.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .package-image-content .destination-thirdy {
+  background: url(../img/destination-grid-3.png) no-repeat;
+  background-size: cover;
+  grid-column: span 2;
+  height: 182px;
+}
+
+.hero .hero-destinations-footer-img {
+  height: 400px;
+  width: 100%;
+  background: url(../img/destinations-footer-mobile.png) no-repeat center bottom;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .hero .destination-hero-img {
+    background: url(../img/destination-hero-tablet.png) no-repeat;
+    background-size: cover;
+    height: 620px;
+    padding: 210px 70px 108px 120px;
+  }
+
+  .hero .destination-hero-img h1 {
+    font-size: 48px;
+  }
+
+  .hero .destination-hero-img p {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .payments .content-container.package .text-content .button {
+    display: none;
+  }
+
+  .payments .package-image-content .destination-first {
+    background: url(../img/destination-grid-1-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .package-image-content .destination-second {
+    background: url(../img/destination-grid-2-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .package-image-content .destination-thirdy {
+    background: url(../img/destination-grid-3-desktop.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 182px;
+  }
+
+  .hero .hero-destinations-footer-img {
+    background: url(../img/destinations-footer-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero .destination-hero-img {
+    background: url(../img/destination-hero-desktop.png) no-repeat;
+    background-size: cover;
+    height: 620px;
+    padding: 158px 0px 158px 120px;
+  }
+
+  .hero .destinations .hero-text {
+    width: 580px;
+  }
+
+  .payments .package-image-content {
+    width: 790px;
+  }
+
+  .payments .content-container.package .text-content {
+    margin-top: 96px;
+  }
+
+  .hero .hero-destinations-footer-img {
+    background: url(../img/destinations-footer-desktop.png) no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
+}
